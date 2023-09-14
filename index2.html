@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    :root {
+      --red: red;
+    }
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* --red: blue; */
+    }
+    .container {
+      width: 70%;
+      margin: auto;
+      /* border: 1px solid #333;
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      grid-template-rows: 240px; */
+      background: yellow;
+      background: var(--red);
+      display: flex;
+    }
+    img {
+      flex-basis: 200px;
+      height: 240px;
+
+      width: 100%;
+      background: #fff;
+    }
+    .block {
+      flex: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      /* place-self: center; */
+    }
+  </style>
+  <body>
+    <div class="container">
+      <img src="./img/ads.png" alt="#" />
+      <div class="block">
+        <div class="block-2">
+          <h1>Lorem ipsum dolor sit amet.</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia,
+            corrupti.
+          </p>
+          <form action#>
+            <input type="text" placeholder="Adresse Email" />
+            <button>Inscription</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
